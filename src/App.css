@@ -192,7 +192,78 @@ body, html {
   margin-top: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+} 
+ 
+@media (max-width: 400px) {
+
+  /* hero section */
+  .container {
+    height: 600px;
+    background-attachment: scroll; /* fixedը փոքր էկրանին չի աշխատում */
+  }
+
+  .container h1 {
+    margin-top: 280px;
+    font-size: 36px;
+  }
+
+  .container h3 {
+    font-size: 22px;
+  }
+
+  .container img {
+    width: 50px;
+  }
+
+
+  /* gallery */
+  .gallery {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 80px;
+  }
+
+  .gallery-img {
+    width: 85%;
+    height: 260px;
+    border-radius: 10px;
+  }
+
+
+  /* about section */
+  .name {
+    font-size: 40px;
+  }
+
+  .age {
+    font-size: 90px;
+  }
+
+
+  /* text section */
+  .text h3 {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 40px;
+  }
+
+
+  /* location */
+  .location h1 {
+    font-size: 32px;
+  }
+
+  .location h2, .location h3 {
+    font-size: 18px;
+  }
+
+  .location .loc {
+    width: 80%;
+  }
 }
+
  
 @media (min-width: 768px) {
 
@@ -242,14 +313,10 @@ body, html {
   }
 }
 
-
-/* ------------------------------- */
-/* 🖥️ DESKTOP — 1024px            */
-/* ------------------------------- */
 @media (min-width: 1024px) {
 
   .container {
-    height: 100vh; /* լրիվ full screen */
+    height: 100vh;
   }
 
   .container h1 {
@@ -265,7 +332,6 @@ body, html {
     width: 90px;
   }
 
-  /* gallery — մեջտեղում կենտրոնացված 3 հատ row */
   .gallery {
     justify-content: center;
     gap: 40px;
@@ -276,8 +342,6 @@ body, html {
     height: 380px;
   }
 
-
-  /* about section */
   .name {
     font-size: 80px;
   }
