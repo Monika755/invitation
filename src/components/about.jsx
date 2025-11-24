@@ -53,7 +53,7 @@ export default function About () {
   referrerPolicy="no-referrer-when-downgrade"
 />
 
-        </div>
+        </div> 
         </div>
     )
 } 
