@@ -227,8 +227,8 @@ body, html {
 
 
   .gallery-img {
-    width: 50%;
-    height: 200px;
+    width: 75%;
+    height: 250px;
     border-radius: 10px;
   }
 
@@ -264,7 +264,10 @@ body, html {
 
   .location .loc {
     width: 80%;
-  }
+  } 
+   .location  img { 
+    width: 75%;
+   }
 }
 
  
