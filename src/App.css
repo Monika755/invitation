@@ -194,7 +194,7 @@ body, html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 } 
  
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
   /* hero section */
   .container {
@@ -218,16 +218,17 @@ body, html {
 
   /* gallery */
   .gallery {
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 80px; 
-    justify-content: center; 
-    align-items: center;
-  }
+  display: flex;               
+  flex-direction: column;      
+  align-items: center;         
+  gap: 15px;
+  margin-top: 80px;
+}
+
 
   .gallery-img {
-    width: 85%;
-    height: 260px;
+    width: 50%;
+    height: 200px;
     border-radius: 10px;
   }
 
@@ -238,7 +239,7 @@ body, html {
   }
 
   .age {
-    font-size: 90px;
+    font-size: 90px;  
   }
 
 
@@ -297,10 +298,10 @@ body, html {
 
   /* about text */
   .name {
-    font-size: 70px;
+    font-size: 70px; 
   }
 
-  .age {
+  .age { 
     font-size: 150px;
   }
 
